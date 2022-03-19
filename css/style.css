@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background:#051937;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.Count h1{
+    color: white;
+}
+
+
+
+.score{
+    margin: 20px 100px;
+    gap:100px
+}
+.main{
+    transform: translate(450px,250px);
+    display: flex;
+    flex-direction: column;
+    border-color: 5px black;
+    width: 50%;
+    height: 50vh;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.8);    
+}
+
+.screen{
+    margin: 50px 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    
+}
+
+.screen button{
+    border-radius: 50%;
+    cursor: pointer;
+    background: DodgerBlue;
+    border: solid black 5px;
+    
+}
+
+.screen button :hover{
+    background: yellow;
+}
+
+.screen i{
+    border-radius: 50%;
+    padding: 20px 20px;
+}
+
+.Choice{
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+.screen-active button {
+    display: none;
+    
+    
+}
+
+
